@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+Cloud Integrity Dashboard
+</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f4f7fb;
+}
+
+/* HEADER */
+
+.header{
+
+    background:
+    linear-gradient(
+        to right,
+        #0072ff,
+        #00c6ff
+    );
+
+    color:white;
+
+    padding:30px;
+
+    text-align:center;
+
+    box-shadow:
+    0 4px 15px rgba(0,0,0,0.2);
+}
+
+.header h2{
+    font-size:36px;
+}
+
+/* CONTAINER */
+
+.container{
+    padding:30px;
+}
+
+/* CARD */
+
+.card{
+
+    background:white;
+
+    border-radius:16px;
+
+    padding:25px;
+
+    margin-bottom:25px;
+
+    box-shadow:
+    0 5px 20px rgba(0,0,0,0.1);
+}
+
+.card h3{
+    margin-bottom:20px;
+}
+
+/* ALERT */
+
+.alert{
+
+    background:#ff4d4d;
+
+    color:white;
+
+    padding:14px;
+
+    border-radius:10px;
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+    font-weight:bold;
+}
+
+/* GRID */
+
+.analysis-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(220px,1fr));
+
+    gap:20px;
+}
+
+/* ANALYSIS BOX */
+
+.analysis-box{
+
+    background:#eef5ff;
+
+    border-radius:14px;
+
+    padding:25px;
+
+    text-align:center;
+
+    transition:0.3s;
+}
+
+.analysis-box:hover{
+    transform:translateY(-5px);
+}
+
+.analysis-box h1{
+
+    margin:15px 0;
+
+    font-size:38px;
+}
+
+/* TABLE */
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+}
+
+th{
+
+    background:#0072ff;
+
+    color:white;
+
+    padding:14px;
+}
+
+td{
+
+    padding:12px;
+
+    text-align:center;
+
+    border-bottom:1px solid #ddd;
+}
+
+tr:hover{
+    background:#f1f1f1;
+}
+
+/* STATUS */
+
+.safe{
+
+    color:green;
+
+    font-weight:bold;
+}
+
+.tampered{
+
+    color:red;
+
+    font-weight:bold;
+}
+
+/* GRAPH */
+
+.graphs{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:20px;
+}
+
+.graphs img{
+
+    width:320px;
+
+    border-radius:12px;
+
+    box-shadow:
+    0 3px 12px rgba(0,0,0,0.2);
+}
+
+/* AI */
+
+.ai-box{
+
+    background:#eef5ff;
+
+    padding:20px;
+
+    border-radius:12px;
+
+    line-height:1.8;
+
+    white-space:pre-line;
+}
+
+/* CHAT */
+
+.chat-box{
+
+    display:flex;
+
+    gap:10px;
+}
+
+.chat-box input{
+
+    flex:1;
+
+    padding:12px;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+}
+
+.chat-box button{
+
+    background:#0072ff;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 20px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+}
+
+/* BUTTON */
+
+.back-btn{
+
+    display:inline-block;
+
+    margin-top:15px;
+
+    background:#0072ff;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:12px 22px;
+
+    border-radius:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<div class="header">
+
+    <h2>
+        📊 Cloud Integrity Audit Dashboard
+    </h2>
+
+</div>
+
+<div class="container">
+
+    <!-- ALERT -->
+
+    {% if alert %}
+
+    <div class="alert">
+
+        ⚠️ Integrity verification completed successfully
+
+    </div>
+
+    {% endif %}
+
+    <!-- STATISTICS -->
+
+    <div class="card">
+
+        <h3>
+            📊 Integrity Statistics
+        </h3>
+
+        <div class="analysis-grid">
+
+            <div class="analysis-box">
+
+                <h4>
+                    📁 Total Files
+                </h4>
+
+                <h1>
+
+                    {{ total_files }}
+
+                </h1>
+
+            </div>
+
+            <div class="analysis-box">
+
+                <h4>
+                    ✅ Secure Files
+                </h4>
+
+                <h1 style="color:green;">
+
+                    {{ secure_files }}
+
+                </h1>
+
+            </div>
+
+            <div class="analysis-box">
+
+                <h4>
+                    ❌ Tampered Files
+                </h4>
+
+                <h1 style="color:red;">
+
+                    {{ tampered_files }}
+
+                </h1>
+
+            </div>
+
+            <div class="analysis-box">
+
+                <h4>
+                    ⚠️ Error Rate
+                </h4>
+
+                <h1 style="color:#ff6600;">
+
+                    {{ error_rate }}%
+
+                </h1>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ALGORITHM ANALYSIS -->
+
+    <div class="card">
+
+        <h3>
+            🏆 Algorithm Analysis
+        </h3>
+
+        <div class="analysis-grid">
+
+            <div class="analysis-box">
+
+                <h4>
+                    ⚡ Fastest
+                </h4>
+
+                <h1 style="color:green;">
+
+                    {{ fastest_algo }}
+
+                </h1>
+
+            </div>
+
+            <div class="analysis-box">
+
+                <h4>
+                    🐢 Slowest
+                </h4>
+
+                <h1 style="color:red;">
+
+                    {{ slowest_algo }}
+
+                </h1>
+
+            </div>
+
+            <div class="analysis-box">
+
+                <h4>
+                    🔐 Best Overall
+                </h4>
+
+                <h1 style="color:#0072ff;">
+
+                    {{ best_algo }}
+
+                </h1>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- FILE TABLE -->
+
+    <div class="card">
+
+        <h3>
+            📁 Algorithm Comparison
+        </h3>
+
+        <table>
+
+            <tr>
+
+                <th>File</th>
+                <th>Algorithm</th>
+                <th>Status</th>
+                <th>Encrypt</th>
+                <th>Upload</th>
+                <th>Decrypt</th>
+
+            </tr>
+
+            {% for r in results %}
+
+            <tr>
+
+                <td>
+
+                    {{ r.file.split('.')[0] }}
+
+                </td>
+
+                <td>
+
+                    {{ r.file.split('.')[-1].upper() }}
+
+                </td>
+
+                <td class="{% if 'Tampered' in r.status %}tampered{% else %}safe{% endif %}">
+
+                    {{ r.status }}
+
+                </td>
+
+                <td>
+
+                    {{ r.enc_time }}
+
+                </td>
+
+                <td>
+
+                    {{ r.upload_time }}
+
+                </td>
+
+                <td>
+
+                    {{ r.dec_time }}
+
+                </td>
+
+            </tr>
+
+            {% endfor %}
+
+        </table>
+
+    </div>
+
+    <!-- CONFUSION MATRIX -->
+
+    <div class="card">
+
+        <h3>
+            🤖 Confusion Matrix
+        </h3>
+
+        <table>
+
+            <tr>
+
+                <th></th>
+
+                <th>
+                    Pred Secure
+                </th>
+
+                <th>
+                    Pred Tampered
+                </th>
+
+            </tr>
+
+            <tr>
+
+                <th>
+                    Actual Secure
+                </th>
+
+                <td style="color:green; font-weight:bold;">
+
+                    {{ cm[0][0] }}
+
+                </td>
+
+                <td>
+
+                    {{ cm[0][1] }}
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <th>
+                    Actual Tampered
+                </th>
+
+                <td>
+
+                    {{ cm[1][0] }}
+
+                </td>
+
+                <td style="color:red; font-weight:bold;">
+
+                    {{ cm[1][1] }}
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+    <!-- CONFUSION GRAPH -->
+
+    <div class="card">
+
+        <h3>
+            📈 Confusion Matrix Graph
+        </h3>
+
+        <div class="graphs">
+
+            <img src="/static/confusion.png">
+
+        </div>
+
+    </div>
+
+    <!-- PERFORMANCE GRAPH -->
+
+    <div class="card">
+
+        <h3>
+            📈 Performance Graphs
+        </h3>
+
+        <div class="graphs">
+
+            <img src="/static/enc.png">
+
+            <img src="/static/upload.png">
+
+            <img src="/static/dec.png">
+
+        </div>
+
+    </div>
+
+    <!-- AI ANALYSIS -->
+
+    <div class="card">
+
+        <h3>
+            🤖 AI Analysis
+        </h3>
+
+        <div class="ai-box">
+
+            {{ explanation }}
+
+        </div>
+
+    </div>
+
+    <!-- CHATBOT -->
+
+    <div class="card">
+
+        <h3>
+            💬 Ask AI
+        </h3>
+
+        <div class="chat-box">
+
+            <input
+                type="text"
+                id="query"
+                placeholder="Ask about security..."
+            >
+
+            <button onclick="askAI()">
+
+                Ask
+
+            </button>
+
+        </div>
+
+        <br>
+
+        <p id="response"></p>
+
+    </div>
+
+    <!-- BACK -->
+
+    <a href="/" class="back-btn">
+
+        ⬅ Back
+
+    </a>
+
+</div>
+
+<script>
+
+function askAI(){
+
+    let query =
+    document.getElementById("query").value;
+
+    fetch("/chatbot",{
+
+        method:"POST",
+
+        headers:{
+            "Content-Type":
+            "application/x-www-form-urlencoded"
+        },
+
+        body:"query="+query
+    })
+
+    .then(res=>res.json())
+
+    .then(data=>{
+
+        document.getElementById("response")
+        .innerText=data.reply;
+
+    });
+
+}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+credentials.json
+client_secrets.json
+*.pem
+*.key
+
+# User-uploaded files
+uploads/
+
+# Temporary files
+*.tmp

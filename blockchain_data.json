@@ -1,0 +1,564 @@
+{
+    "Eg.txt_AES": {
+        "hash": "3000da981b8cf8b6081eb8cd73e95213830a1242e85e56c0cd86f5d5235da434",
+        "drive_id": "18Qi-sa2AImt5B8qQq0zvz7Xe0eXO2EYv",
+        "enc_time": 0.0036,
+        "upload_time": 2.5695
+    },
+    "Eg.txt_DES": {
+        "hash": "9c2ce2a9ac92adb6aa84a22dd1ef6d22a7deb2f7ced019fcec60afad127d7042",
+        "drive_id": "1f8XIJqwFZfA0iXNevFqokmHKLCSswnOX",
+        "enc_time": 0.001,
+        "upload_time": 2.6664
+    },
+    "Eg.txt_Blowfish": {
+        "hash": "ceee2b2b8b351a560914c46f9e67acdf205cb36d8887b01b70afb17032da07ee",
+        "drive_id": "1ig682USiZWJBM7OBm1xfhBAX2D9WW40E",
+        "enc_time": 0.0004,
+        "upload_time": 2.4489
+    },
+    "Eg.txt_RSA": {
+        "hash": "8a37053c01eee79ddfb24bedd257a4a27ee8e005e461c4b007fd91752315b532",
+        "drive_id": "1-RBWwM0eSMLlWeWVe5Mx1J_YEHM-2pTT",
+        "enc_time": 1.6001,
+        "upload_time": 2.3182
+    },
+    "qn paper1122.pdf_AES": {
+        "hash": "d343cf560656b8b9dedb8e171252dc4c5334120da05a31622bfca909cdce0206",
+        "drive_id": "1H9SohI34gvV7v5Sb94M3jFcsc6OyKYw4",
+        "enc_time": 0.0125,
+        "upload_time": 2.681
+    },
+    "qn paper1122.pdf_DES": {
+        "hash": "ef37369ae9ac35e26f50bdb1592486a2e662bcdbda35b80933bfd2e22d80a5ec",
+        "drive_id": "1uYC2h0kvlmaNO1KK6D0m-H2v2uoHYm3g",
+        "enc_time": 0.0025,
+        "upload_time": 2.8968
+    },
+    "qn paper1122.pdf_Blowfish": {
+        "hash": "a9cca18db9947761c055ecae65e037ca17f5965396a9e76b96e3481748b156e3",
+        "drive_id": "1F0m6y5S2GuXxHA9je1Urwvu-4iHDSSIG",
+        "enc_time": 0.0022,
+        "upload_time": 2.5444
+    },
+    "qn paper1122.pdf_RSA": {
+        "hash": "12df08f5548e8161f26bfa5599681cc391dd8c9ebc50448d6abe86b4b521b0fc",
+        "drive_id": "10f_6qObIvCRfpg5IRk5zSxAmCNEvrlhg",
+        "enc_time": 2.0743,
+        "upload_time": 2.5964
+    },
+    "Efficient and Effective Data Integrity Using Multiple Security Techniques on Cloud Data (2).docx_AES": {
+        "hash": "3fe7cc7b228af9d6482b6d53d0acb0cab076a9b970a35cdc7bcccddd38d8fec5",
+        "drive_id": "1AfXPaM2ImU_2AHGpFUXcLYHOy9STGvSL",
+        "enc_time": 0.0142,
+        "upload_time": 2.3846
+    },
+    "Efficient and Effective Data Integrity Using Multiple Security Techniques on Cloud Data (2).docx_DES": {
+        "hash": "40bda22e6fe6dff8d472d1d36c2988ec353539c8ff60625e0c4af40c1a98808c",
+        "drive_id": "1yMcdIPa4ExyaRpTWgXpse8mzh7kJB6Ub",
+        "enc_time": 0.0007,
+        "upload_time": 2.5121
+    },
+    "Efficient and Effective Data Integrity Using Multiple Security Techniques on Cloud Data (2).docx_Blowfish": {
+        "hash": "941af89ca85d37004043592137a02f2b56adaeb9af6abd577ac5363a26d24af1",
+        "drive_id": "17dLJXKGw0R3gO5a7gkDJQVJ0kWDnrGXw",
+        "enc_time": 0.0012,
+        "upload_time": 2.7738
+    },
+    "Efficient and Effective Data Integrity Using Multiple Security Techniques on Cloud Data (2).docx_RSA": {
+        "hash": "0fabdcb830f66c10559e36a1b732fb280f91b80d06c72a06afbf6e79629eff26",
+        "drive_id": "1Re6Ni3WAKAoLx2wiiElrQRo1sZWc2f1j",
+        "enc_time": 0.4181,
+        "upload_time": 2.9618
+    },
+    "qn paper112.pdf_AES": {
+        "hash": "f1cf4e02cb6e8e4c56ae920deef466070287b1c5953b3f853de30ea6dad94bde",
+        "drive_id": "10vlgaX0vZhISQz1mG6UmjR4LaEkZUQw-",
+        "enc_time": 0.0133,
+        "upload_time": 2.8298
+    },
+    "qn paper112.pdf_DES": {
+        "hash": "68c2b6ed865bbe61138e4856372890329d23d402423b59a6ea80b052f5ea7240",
+        "drive_id": "1qGYZDleifdxJnQH1KPW-ga621Zrrrp8y",
+        "enc_time": 0.0033,
+        "upload_time": 3.258
+    },
+    "qn paper112.pdf_Blowfish": {
+        "hash": "28cced8d84edf2001ad873e4610c142f3333dd1bd20193d084a58018a9a20ae7",
+        "drive_id": "1A1R7UV-tVZlLWYbQ5J0xOvlshmQ00_OF",
+        "enc_time": 0.0006,
+        "upload_time": 2.4344
+    },
+    "qn paper112.pdf_RSA": {
+        "hash": "00c2131441147550e312e8c6395763d78c450bf12dd268f234aa6f82ff5e6e0d",
+        "drive_id": "1yZ10NS3X1kTCv7fu4wUXFS-oM5sH3ulb",
+        "enc_time": 1.0265,
+        "upload_time": 2.3967
+    },
+    "ac.pdf_AES": {
+        "hash": "3143dd2a14e3ce05f03d74c5e6587a383bca2e0301f7cbea36fe484c0f35d47b",
+        "drive_id": "1C8J0BQeZdv_3TbZP92lawvyODvcb7Qdg",
+        "enc_time": 0.014,
+        "upload_time": 2.8279
+    },
+    "ac.pdf_DES": {
+        "hash": "f8e7924a49959e72a756e5696490acc8d3f55caaa8a47bd658f63c93855b15e6",
+        "drive_id": "1SWdbVcD_1kShk4yNMupKTU1shrpWrXDW",
+        "enc_time": 0.0059,
+        "upload_time": 2.5299
+    },
+    "ac.pdf_Blowfish": {
+        "hash": "caae2e12c15bfb7f41e92d9548044f4c0136096b7bc33ea31fd82e31834141dc",
+        "drive_id": "1i9DRSszZhL16jSZ8oZPo6C8KdSoVjx3K",
+        "enc_time": 0.0019,
+        "upload_time": 2.8575
+    },
+    "ac.pdf_RSA": {
+        "hash": "1a8ebced892739de66784479319c13747229b607baa62488a795dcdb34e326bc",
+        "drive_id": "1O-61EPP_yVDjZ_djcrewV3EHW5DH5-VF",
+        "enc_time": 1.7224,
+        "upload_time": 2.5505
+    },
+    "op.pdf_AES": {
+        "hash": "9b1825b6ec801df3670692e7b512453ae6592648b42936d4f24fdee8f96059fd",
+        "drive_id": "1uK1gQco_oV6D7draBv9WxGGmUsS7dirl",
+        "enc_time": 0.1254,
+        "upload_time": 6.8317,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "op.pdf_DES": {
+        "hash": "e9948ea12c1aad820bc6d04d8098cf28547cea501e9643b654567a727fa4ef0c",
+        "drive_id": "1_PJ0nMQsD6H1vJuMIV_mD80kO7xZT48j",
+        "enc_time": 0.0127,
+        "upload_time": 3.6579,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "op.pdf_Blowfish": {
+        "hash": "ded22ac7cdf7139829072f40c2721b496ed1964b86e7553b38a1eb17264dff08",
+        "drive_id": "1rtwJLnA6NhnSxrWf_vdC0PPxs_fBbN-N",
+        "enc_time": 0.0065,
+        "upload_time": 2.5611
+    },
+    "op.pdf_RSA": {
+        "hash": "be0bae068e490b1de761f144d30ac0f8a4230d73ba17a4e3371f32a195f03aca",
+        "drive_id": "1Ckq7EsjeFNPukprXcH1pUQr8qDLe3_FF",
+        "enc_time": 2.6897,
+        "upload_time": 3.4906,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "Tampered_File_Explanation.pdf_AES": {
+        "hash": "60bcb2ba27a7644b5f62d9f85212f748c3a4feabd08ac5717cefe3f9c1725271",
+        "drive_id": "1EMpY2tGWbqnxJ_z85Omq1rRdtl8BYEyk",
+        "enc_time": 0.0045,
+        "upload_time": 2.9573
+    },
+    "Tampered_File_Explanation.pdf_DES": {
+        "hash": "35a257dfbe5d7924558d144021339988989a62dc9b27b4f8ac6544b47a7fdf66",
+        "drive_id": "1znuezfwXF7znyNDgyuWvKVSl_7eR3Jbn",
+        "enc_time": 0.0008,
+        "upload_time": 2.67
+    },
+    "Tampered_File_Explanation.pdf_Blowfish": {
+        "hash": "21f0b5e986d50850ee2471a19a73724fc8eb889a0511d366654002bdfc15e43d",
+        "drive_id": "1xG5RqHw03qADCD3RCGNEY2jHEYc6Wz3F",
+        "enc_time": 0.0011,
+        "upload_time": 2.4075
+    },
+    "Tampered_File_Explanation.pdf_RSA": {
+        "hash": "90f1c0481e95455b9f21c79a254a66f602915ea7c8c9f5f3a8011d1cd4dca725",
+        "drive_id": "14j3dQNK_LNVGMkHETd9WytjleWmyaxyw",
+        "enc_time": 0.1587,
+        "upload_time": 2.391
+    },
+    "DOS Practical_101859.pdf.aes_AES": {
+        "hash": "300aa84bb18da64f3d21644ea80d248a2df6d72affbe790c7413b382fc42edf2",
+        "drive_id": "11kdmtZD4oaIxPR5yYF8faEGIr7oBOr5P",
+        "enc_time": 0.0636,
+        "upload_time": 3.0213,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "DOS Practical_101859.pdf.aes_DES": {
+        "hash": "20b5305d8d62cce840f31665fa036e4f7ab53cbd91460ed2956596c5c45a6ddc",
+        "drive_id": "1Oym-bBHzenJtjNUx89Fzgruj77FmaPwY",
+        "enc_time": 0.004,
+        "upload_time": 10.8247,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "DOS Practical_101859.pdf.aes_Blowfish": {
+        "hash": "d915d2d639f4e6d8b0c093d4d5c12ce75967832abebfe3095462043138c150fc",
+        "drive_id": "1f9JeeP4HZ61-QrIUVVqQ9sTxEQgEOW1H",
+        "enc_time": 0.0028,
+        "upload_time": 2.9126
+    },
+    "DOS Practical_101859.pdf.aes_RSA": {
+        "hash": "1514ab3c6769eea580a35e6da7c4bbe619c6f7f164c6cbdcbf99d43740203f78",
+        "drive_id": "1EUBWa3yF058h0wXtFwD3BTKs-l3ueoiw",
+        "enc_time": 1.0488,
+        "upload_time": 3.2695,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "PROJECT SYNOPSIS.pdf_AES": {
+        "hash": "886a0161267bb4fd600f469494517769285459fc0facdba2460db1a610a77a6b",
+        "drive_id": "1lSZjrmQ9ZKAZRqaL6mFSRltwInYs0kMy",
+        "enc_time": 0.0145,
+        "upload_time": 4.0768
+    },
+    "PROJECT SYNOPSIS.pdf_DES": {
+        "hash": "284c6bb9c7b0ff2a9ae9a1016e6b3a1ce2696e6b82bd239c45c1290c72c49b85",
+        "drive_id": "1Z8WJRhfs16E9B52y7Z4mYnW2SMUh2YLH",
+        "enc_time": 0.0101,
+        "upload_time": 3.9128
+    },
+    "PROJECT SYNOPSIS.pdf_Blowfish": {
+        "hash": "224ca0f1cbc296e20ec9bf3785e64472dcd8e8845a3cdebc2996b0a8c117ac4f",
+        "drive_id": "1oIHnpH1tlutlcUZD6aW7OF5bquHI9PJ_",
+        "enc_time": 0.0024,
+        "upload_time": 3.5425
+    },
+    "PROJECT SYNOPSIS.pdf_RSA": {
+        "hash": "3c047bd0d4f2e63d0bb7bf675d05c4aa231ecbd7c7282a9d0cfd9540c46bf4e1",
+        "drive_id": "1rjqUtmyaUSMhAqMDCoUALq7iN4EAh8rL",
+        "enc_time": 0.3353,
+        "upload_time": 2.4868
+    },
+    "LM_Final.ipynb_AES": {
+        "hash": "21cb5138f539df736839ab3638ac3d00305a7820ef83dfd26a15bc6d27180df5",
+        "drive_id": "1c1aQ83411lQinLiFtNpx4uhukrj1PXUq",
+        "enc_time": 0.0296,
+        "upload_time": 8.4017,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "LM_Final.ipynb_DES": {
+        "hash": "2dac757963322ef60b60c09771f7db354cf0540c7c4b63c32a65220d499d2902",
+        "drive_id": "1emQ5vJozsz4rtu9DYNU2111C9FA0ZRrx",
+        "enc_time": 0.0025,
+        "upload_time": 4.5505,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "LM_Final.ipynb_Blowfish": {
+        "hash": "ebddbc026a0414f60cbd16a687e00e2eb8c5cf512b14dad053101f5b8d4b2348",
+        "drive_id": "1iA416jc72U6wHnghQ94IttvYwcQGwpRI",
+        "enc_time": 0.0014,
+        "upload_time": 2.9935
+    },
+    "LM_Final.ipynb_RSA": {
+        "hash": "039fbcf04db9f84c741f6b927d4f9f149cbf740b54ce1cdd99f3c87fb6644467",
+        "drive_id": "1EhQKuBjc7g6iwv6SbbnqlrcGPlE7FKN-",
+        "enc_time": 0.7397,
+        "upload_time": 5.0071,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "DOS Practical_101859.pdf_AES": {
+        "hash": "51d5aa49464e95dba10333609b505dd8e98c2a0ec0f9da28ccef48ffbb91499a",
+        "drive_id": "1Wd0dxPkWEzdYlSRj4ECoTOVbQ7CelzQu",
+        "enc_time": 0.0106,
+        "upload_time": 2.4812
+    },
+    "DOS Practical_101859.pdf_DES": {
+        "hash": "16894a6195759eba28019ef7173edc96fe02e12c944ce94236afb0128be90d0b",
+        "drive_id": "1ru3jQnkUr-htXFZrwMZqSwq7ufcCHpcw",
+        "enc_time": 0.0012,
+        "upload_time": 2.5593
+    },
+    "DOS Practical_101859.pdf_Blowfish": {
+        "hash": "03054a83ae2e97b848c3b145f5babc428fc1cb091ffe7717fc4698f9af317ddd",
+        "drive_id": "1o_QmdFWvgcge6frOCBb6vkMpDmto4GcD",
+        "enc_time": 0.0007,
+        "upload_time": 2.2295
+    },
+    "DOS Practical_101859.pdf_RSA": {
+        "hash": "37082f801ab783351ef2f3c47823f050563fddbc870f7b5a6f7a5b447da67237",
+        "drive_id": "1cdy2YD_fkDnrhnvxGXozM2yrvXjV2Qw_",
+        "enc_time": 1.1504,
+        "upload_time": 2.1722
+    },
+    "WhatsApp Image 2025-06-16 at 10.15.50 AM.jpeg_AES": {
+        "hash": "5aff07f606a7ca83d701b9f49660852fe71eeea948dc9b10f81c96ae974989e4",
+        "drive_id": "1h4H6yEs4H804aTYouEtU75DmeSwL9Wfy",
+        "enc_time": 0.0439,
+        "upload_time": 3.1352
+    },
+    "WhatsApp Image 2025-06-16 at 10.15.50 AM.jpeg_DES": {
+        "hash": "642247745a88f44d0eced16e67f0c510da73842e4f78e8512039cfd2e0bc2f0d",
+        "drive_id": "1HMNfPqM_C7X7p1GkGR2xVuYCXnipwe9t",
+        "enc_time": 0.0008,
+        "upload_time": 2.8241
+    },
+    "WhatsApp Image 2025-06-16 at 10.15.50 AM.jpeg_Blowfish": {
+        "hash": "599a17d7abc4b9ae736705f7c2394a9cf5892e8329a0af3f0d9f4e73ed29db53",
+        "drive_id": "1Yj2nSeCg7uIht6IS1M_j1xwA5t_ELCvq",
+        "enc_time": 0.0024,
+        "upload_time": 2.7738
+    },
+    "WhatsApp Image 2025-06-16 at 10.15.50 AM.jpeg_RSA": {
+        "hash": "d024f16459809419ce48841736ed004a1ff5a9bb5527c06e0a3012fd55bea25c",
+        "drive_id": "1OtQ8hz-2la7e4rVNqo2ZhfZjLbdzBgzP",
+        "enc_time": 1.6086,
+        "upload_time": 2.7514
+    },
+    "Sampling and quantization2.ipynb_AES": {
+        "hash": "75a2c709df428f995e0a401d3363936c0fd5c2fb7f9cffef8b309b8b53dcebfe",
+        "drive_id": "1HunLNSIYViwwAdd4mNzWm-LmL9gV7f5I",
+        "enc_time": 0.0142,
+        "upload_time": 2.8159,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "Sampling and quantization2.ipynb_DES": {
+        "hash": "18e4a24a55204ab0663ec1ba1519e30cc4a87c229547add5117396f062aa0185",
+        "drive_id": "1sxjaakolE7OhutHeepu1dRoxm8Gnxu2C",
+        "enc_time": 0.0014,
+        "upload_time": 2.8965,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "Sampling and quantization2.ipynb_Blowfish": {
+        "hash": "878286de1bf1a2cdb6be9e916908993a6b16a0dcc143dd50e048ed9c5fb0f5f5",
+        "drive_id": "11d0623P0Xc5EUpbWkk51q1Si9PKBZ59c",
+        "enc_time": 0.0032,
+        "upload_time": 3.0333
+    },
+    "Sampling and quantization2.ipynb_RSA": {
+        "hash": "8d3a405eb5235dc9cadabaeb977571f1e5ed8e17c014ab8f4baa627d94b2f9e4",
+        "drive_id": "10L1VEYJ4fRie_lpUkcPEx1QdLMEf8lj7",
+        "enc_time": 1.158,
+        "upload_time": 2.6605,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "UNIT 1 accounatcy.pdf_AES": {
+        "hash": "37f98be4d99c5499b8e18da37103fbc0c2d488a54b2abbdff7efc59210a8dc56",
+        "drive_id": "1dYb1enUTRKb36RkCLlB8dtJMRatsltEj",
+        "enc_time": 0.012,
+        "upload_time": 2.8557
+    },
+    "UNIT 1 accounatcy.pdf_DES": {
+        "hash": "a48784fadea21b2c62d353d127842b971934cc7dbdc2da37dd8a7494bcec17df",
+        "drive_id": "1_jqT_IJZ-NqPu9C8Rs372Fwz4AMDf2pg",
+        "enc_time": 0.0028,
+        "upload_time": 2.5809
+    },
+    "UNIT 1 accounatcy.pdf_Blowfish": {
+        "hash": "547a45868c13f649474c746a1eee17f7f07c2fc549b7c24e95f7b883fee72deb",
+        "drive_id": "1o9RDufA9lKGgC99KpIueRcZMrIsGgPv6",
+        "enc_time": 0.0026,
+        "upload_time": 2.5706
+    },
+    "UNIT 1 accounatcy.pdf_RSA": {
+        "hash": "25ff0a3dc8417cc6a505cf70975b7d2e2fbdc157421c61a650bd41043cc74e5e",
+        "drive_id": "1eXq7WWXTPJoMqus4dKzQJEIi8GqrDL9l",
+        "enc_time": 1.4074,
+        "upload_time": 2.5818
+    },
+    "op.pdf_BF": {
+        "hash": "8b71a937de377a46a8a29ea8237a404543d2cd0c9b275f4db07e216df0f453f1",
+        "drive_id": "1b4ee38L36qJ6QOtQ9uL2ThXqAPFof82t",
+        "enc_time": 0.0045,
+        "upload_time": 3.7754,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "qn paper1122.pdf_BF": {
+        "hash": "5ac1d731ad03f3c94f4330564e63c2d9b0a669a3877697e63fe67776836ac1c3",
+        "drive_id": "1KvA8ws238HBG1F1LcWKaUGdRMK6pcbeS",
+        "enc_time": 0.0009,
+        "upload_time": 2.4582
+    },
+    "qn paper112.pdf_BF": {
+        "hash": "7f76331afa0adfacab02b64230131f9e39af10f121adf94ce22c5f1a8a87464b",
+        "drive_id": "1ur-ZrUo-WbaOnZDsD3ue4mw8DKpPjIlQ",
+        "enc_time": 0.002,
+        "upload_time": 2.5683
+    },
+    "DOS Practical_101859.pdf.aes_BF": {
+        "hash": "d546041e807f77564f7fedd9956700168d06fce0ae22ef6c934a79b1e56fe0df",
+        "drive_id": "1uWB3kBgplerE2EPCGKLKxQwFdHlYih6i",
+        "enc_time": 0.0019,
+        "upload_time": 4.3245,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "Tampered_File_Explanation.pdf_BF": {
+        "hash": "46975707d1ef477cdb031b31663988450dfd5b93da98390e944159b5c9ffb1d1",
+        "drive_id": "1VA0VaAxo9OctOQiJ3iDflisKYEU1NZhy",
+        "enc_time": 0.0006,
+        "upload_time": 2.5786
+    },
+    "file.pdf.enc_AES": {
+        "hash": "db90a4cdf8957d5b6e2028b237504e2125b251615c73f37583d24e70cffe82e2",
+        "drive_id": "1oR_COp5rCDTavmD9tetkJklhDk_dpXEL",
+        "enc_time": 0.0064,
+        "upload_time": 4.0585,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "file.pdf.enc_DES": {
+        "hash": "1721ac2fddce0b38728713c3b5b7a2eb8899678f94f69fc7cb37fb2c827d5e80",
+        "drive_id": "1-NOkPboUG_588RhoB-ifV6z0jJU_c6f0",
+        "enc_time": 0.001,
+        "upload_time": 3.0184,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "file.pdf.enc_BF": {
+        "hash": "3ad720fc668bb9efe11c7403f3e0b8c50c4276d082388e7618b39167bfea6432",
+        "drive_id": "1XLCVNsKsxXOcCPuFr_MHf1KAF_K_Jfe0",
+        "enc_time": 0.0013,
+        "upload_time": 2.434,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "file.pdf.enc_RSA": {
+        "hash": "f708bdf196f190ca39ad504998dddc3bbb8943975f90d62d84c39c45ad517f6e",
+        "drive_id": "1KC1oF49ssuiP_C_FI7Ipn3t1u9IPZibp",
+        "enc_time": 1.9123,
+        "upload_time": 2.632,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "qn paper11.docx_AES": {
+        "hash": "9b8accf4fd96e453bef26b569ec5eb49a428ff3e146b962bf348d9f53594ddd8",
+        "drive_id": "1P3tuZ0QO9BXX3kzSEpztJzgBMlv0WIdc",
+        "enc_time": 0.0253,
+        "upload_time": 2.7232,
+        "owner_email": "amanak4415@gmail.com"
+    },
+    "qn paper11.docx_DES": {
+        "hash": "5b7aee26c6a3af23597a1921bafbde560ac0703b3b9a59386abe15a96b5499cc",
+        "drive_id": "1Fb5QjFwE_b5SBLZchYjGPQBOOf1mbugm",
+        "enc_time": 0.0015,
+        "upload_time": 2.6009,
+        "owner_email": "amanak4415@gmail.com"
+    },
+    "qn paper11.docx_BF": {
+        "hash": "94ce1414953d2a131979b1f0590ce8a4670c1978d1810debdd68294344332e5c",
+        "drive_id": "1bCoY6kMbVkkgKITKnhDA1jIYOra-PIkh",
+        "enc_time": 0.0008,
+        "upload_time": 2.8853,
+        "owner_email": "amanak4415@gmail.com"
+    },
+    "qn paper11.docx_RSA": {
+        "hash": "ec602004d87c9d781321a62c90ce72dd6eca06c18fe3e9f811bba3820a0d6021",
+        "drive_id": "1d5TV9Jd2-zMJwM7-Xkj_ytdBJSTp57Rf",
+        "enc_time": 0.8846,
+        "upload_time": 2.4994,
+        "owner_email": "amanak4415@gmail.com"
+    },
+    "sneha DS.docx_AES": {
+        "hash": "bf665c7cad1f5be15931cb3747577de79d7635723f6e7185c9e83422049865ef",
+        "drive_id": "1jvS-M7B444U_RdaQaF_rh7e0pQdZOpsf",
+        "enc_time": 0.0188,
+        "upload_time": 2.6618,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "sneha DS.docx_DES": {
+        "hash": "c29d7fb6fa1d52cd2b54cf56d97f04b615263b78cd281d45cc756932cfa8a62f",
+        "drive_id": "1yIQUaa4_z9YBwCcP_OCIHyoQM3w6sjN1",
+        "enc_time": 0.0022,
+        "upload_time": 2.9338,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "sneha DS.docx_BF": {
+        "hash": "0fd7c978120c1dab0b669b637f9c11004a1d7786e3a6d303c3b201d1acd7272f",
+        "drive_id": "1Ic55qTpqFaDWiQLtuLXmzRsfM-eHq06I",
+        "enc_time": 0.002,
+        "upload_time": 3.1425,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "sneha DS.docx_RSA": {
+        "hash": "a866c05bd6bc9c99aae5eaeb921e808dc71c9ad55bca9841910438f5c6b6ad3e",
+        "drive_id": "1dgMYgVXX3TcD-dWqH42jxfX2nB0c8gR2",
+        "enc_time": 2.3033,
+        "upload_time": 2.8218,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "LM_Final.ipynb_BF": {
+        "hash": "0cd32076e7cceff9a447f51a648a9ad2c270288e6aa41ca78e0663c437dbc71e",
+        "drive_id": "1kmB_mvxI2FVdlwYNCk0ytFMKHO1ZAsPQ",
+        "enc_time": 0.0019,
+        "upload_time": 2.8835,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "Sampling and quantization2.ipynb_BF": {
+        "hash": "d4623e523ca61ec85c88da130a4295173ed411b899d6e8dfc65e8d86a9732a2d",
+        "drive_id": "1QSi3zl5YvLuovmhgL77nTcoLhJMx0FQo",
+        "enc_time": 0.0018,
+        "upload_time": 3.2503,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "12.pdf_AES": {
+        "hash": "7f8112bbdc9d1e244c386964065adc37dd7c825bd9c47dd19e4665334a4d89a0",
+        "drive_id": "14SUbiy-PqDhvun3oyoioEQWP0jRj9HqI",
+        "enc_time": 0.0345,
+        "upload_time": 3.1242,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "12.pdf_DES": {
+        "hash": "a3166a0c153cac2e97d08f0486e6d3251d2f392a3b09b14fadc4da1b4629df93",
+        "drive_id": "1Nq27xlO7Xl2J5RNnO4y3nsNSVA_pphEz",
+        "enc_time": 0.0219,
+        "upload_time": 3.4081,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "12.pdf_BF": {
+        "hash": "d7a1af734eb5b7018d3a7ee083df93a9a3c6ee02bcf918a8f42d1c36f0971699",
+        "drive_id": "1NXCFrzFIfFCkhoNM4p_p5QIOYfSXpZgW",
+        "enc_time": 0.0114,
+        "upload_time": 3.4481,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "12.pdf_RSA": {
+        "hash": "4eb4f02b8f8891aff019cb37f34ed6b986de3defcb6c6c9ce51141ccfa804a53",
+        "drive_id": "1XDP5f4hARN5iJ64xoJgBkI4IDZb-Kidc",
+        "enc_time": 1.1097,
+        "upload_time": 3.6691,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "kk.pdf_AES": {
+        "hash": "27b6865b6fdb8481cb2ce82be4b933ab386045f21afa688dc4b868c879107a09",
+        "drive_id": "1r_VQ2pqKoxwU0sRDX2txnpZ31UZbHZdk",
+        "enc_time": 0.0562,
+        "upload_time": 3.5699,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "kk.pdf_DES": {
+        "hash": "baff00d7a020d14fcf393be5158b042d50fa2aa10ba222f503b6c9543653cac2",
+        "drive_id": "17P6m11d8eho9taLwb7S5gzB31dC9KMnR",
+        "enc_time": 0.0241,
+        "upload_time": 3.3954,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "kk.pdf_BF": {
+        "hash": "441866392145ceb14230cd4c26364880a7784de528fb2e2b3fe9b6956da815d2",
+        "drive_id": "1Z1oSZYVcKqlN0XZam7e6l7nJoKdD42tZ",
+        "enc_time": 0.0368,
+        "upload_time": 3.3021,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "kk.pdf_RSA": {
+        "hash": "a00fc2e5bc42751e83b5b3a7f5c5637656f049747f33009880faec48688e9a6b",
+        "drive_id": "1VSBCkShgv9DbPNZ3Df-_kixFBVrGlfbL",
+        "enc_time": 3.6925,
+        "upload_time": 3.0615,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "cloud.txt_AES": {
+        "hash": "1a68fef4a6c4f14109d004da2ccbada5ae0801d95afcfc01d717c4e20166c5fc",
+        "drive_id": "1Pcg7GBRcHukPubZiED-dhGQ4LA2NYRgW",
+        "enc_time": 0.0528,
+        "upload_time": 3.121,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "cloud.txt_DES": {
+        "hash": "1d488859ae0ce50a2c75d78d8dbb75be255cbd440ef86ca80e2d139dc780ecdc",
+        "drive_id": "1o7BHt4JX6E2ErlaeKOi2y3y5VfXEkv_a",
+        "enc_time": 0.0035,
+        "upload_time": 3.4106,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "cloud.txt_BF": {
+        "hash": "2d2a11be759abf9fb1bcb5481db488dc22b4cfeadfeba71e4f5bb8178e910cde",
+        "drive_id": "1CruJgAvwKWB0mET5LjyGapJhzHkCZ-l4",
+        "enc_time": 0.0007,
+        "upload_time": 3.1995,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    },
+    "cloud.txt_RSA": {
+        "hash": "2ea4ce7b9be8d6f4b2faffd08fae3e7a0f051f1b39ce8d22ff8c38d26e20df86",
+        "drive_id": "13n0NQ_8_oTKNZ7o6SQodBZDEv9RxCWnV",
+        "enc_time": 1.7768,
+        "upload_time": 2.834,
+        "owner_email": "darshandsdarshan188@gmail.com"
+    }
+}
