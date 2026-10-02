@@ -1,4 +1,12 @@
 blockchain-secure-ml-system
+
+
+
+
+
+
+
+
 A Flask-based cloud security application for file encryption, cloud storage, integrity verification, tamper detection, audit reporting, and AI-assisted security analysis.
 
 The system encrypts uploaded files using multiple cryptographic algorithms, stores encrypted copies in Google Drive, records integrity metadata in a local JSON-based ledger, and later verifies whether the stored files have been modified.
